@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog</title>
+</head>
+<body>
+<header><style>header {text-align: center;
+background-color: #183C63;
+color: #FFFFFF;
+}
+main {text-align: center;
+background-color: #FFFFFF;
+color: #183C63;
+}</style>
+<h1>Meu blog tech</h1>
+<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+</header>
+<main>
+<img src="imagem-blog.jpeg" alt="Ilustração digital em estilo pixel art moderno para um blog de tecnologia e educação. Um ícone de cérebro metade biológico e metade circuito elétrico flutua sobre um monitor de computador com linhas de código. O monitor está posicionado em cima de um livro aberto iluminado por uma lâmpada. Na parte inferior, há pequenos ícones de engrenagens, um lápis e a palavra "BLOG".">
+<div>
+<h2>Meu primeiro post</h2>
+<p>Por: eloah santana</p>
+<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+<button>❤️<span>0</span></button>
+<button>��<span>0</span></button>
+<script>const botao = document.querySelector("button");
+botao.addEventListener("click", botaoClicado);
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}</script>
+</div>
+</main>
+</body>
+</html>
